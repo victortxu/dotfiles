@@ -219,6 +219,13 @@ if [ -s ~/.nvm/nvm.sh ]; then
     nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
 
+# 2.8) Customitzacio VirtualEnv de python
+
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+export PIP_VIRTUALENV_BASE=$WORKON_HOME
+
+
 ## ------------------------------
 ## -- 3) User-customized code  --
 ## ------------------------------
