@@ -1,3 +1,9 @@
+[merge]
+    ff = false
+
+[branch]
+    autosetuprebase = always	
+
  [color]
     ui = auto
   [color "branch"]
@@ -32,3 +38,5 @@
 [user]
 	name = victortxu
 	email = victortxu@gmail.com
+
+
